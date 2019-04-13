@@ -1,6 +1,6 @@
 # Summary
 
-* 快速开始
+* [快速开始]()
     * [介绍](getting-started/overview.md)
     * [教程](getting-started/tutorial.md)
     * [资料](getting-started/resources.md)

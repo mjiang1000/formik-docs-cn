@@ -23,7 +23,7 @@ Formik将上述内容组织在一起有序处理，使得表单的测试、重�
 Formik的目标是，一个小而美、可扩展的高效的表单工具帮助你解决那些烦人的事情（验证、处理错误信息、提交），让你只需要关心逻辑
 
 ### 作者的演讲
-[talk at React Alicante]https://youtu.be/oiNtnehlaTo
+[talk at React Alicante](https://youtu.be/oiNtnehlaTo)
 
 ## 灵感来源
 Formik 开始于扩展hoc，吸取了Redux-Form、最近流行的React-Motion and React-Router 4的优点。不管你有没有了解以上的框架，只需要花几分钟就可以快速上手formik
