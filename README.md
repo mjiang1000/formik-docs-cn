@@ -1,4 +1,2 @@
-# Introduction
+# Initial page
 
-Build forms in React, without tears.
-Formik 不相信眼泪
