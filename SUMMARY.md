@@ -11,12 +11,12 @@
     * [React Native](guides/react-native.md)
     * [Form Submission](guides/form-submission.md)
 * API参考
-    * [<Formik />](api/formik.md)
+    * [Formik](api/formik.md)
     * [withFormik()](api/withFormik.md)
-    * [<Field />](api/field.md)
-    * [<FieldArray />](api/fieldArray.md)
-    * [<Form />](api/form.md)
-    * [<ErrorMessage />](api/errorMessage.md)
+    * [Field](api/field.md)
+    * [FieldArray](api/fieldArray.md)
+    * [Form](api/form.md)
+    * [ErrorMessage](api/errorMessage.md)
     * [connect()](api/connect.md)
-    * [<FastField />](api/fastField.md)
+    * [FastField](api/fastField.md)
     
