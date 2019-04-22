@@ -16,7 +16,10 @@ Formik将上述内容组织在一起有序处理，使得表单的测试、重�
 
 到目前为止，你可能在思考,“为什么不用[Redux-Form](https://github.com/erikras/redux-form)?”
 
-1. 根据大神[Dan Abramov](https://github.com/gaearon)的说法,"[form state is inherently ephemeral and local, so tracking it in Redux (or any kind of Flux library) is unnecessary](https://github.com/reactjs/redux/issues/1287#issuecomment-175351978)",表单的状态本质上是短暂的、局部的，所以不需要使用Redux或者其他类Flux工具来追踪、存储。
+1. 根据大神[Dan Abramov](https://github.com/gaearon)的说法,
+
+  [form state is inherently ephemeral and local, so tracking it in Redux (or any kind of Flux library) is unnecessary](https://github.com/reactjs/redux/issues/1287#issuecomment-175351978)
+  表单的状态本质上是短暂的、局部的，所以不需要使用Redux或者其他类Flux工具来追踪、存储。
 2. 当键盘输入时，每一次按下键盘都，Redux-form都会多次调用顶层的Redux reducer。这种方式在小型app上没有问题，但是当你app的功能逐渐增加，潜在的input也在继续增加、最终这种Redux reducer调用方式可能回导致性能问题
 3. Formik的体积更小。Redux-Form is 22.5 kB minified gzipped (Formik is 12.7 kB)
 
