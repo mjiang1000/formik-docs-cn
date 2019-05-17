@@ -47,5 +47,5 @@ Formik render methods and props, 三种方式使用render,
 如果values deeply equal 等于初始值，返回true否则false。dirty属性是只读的不应该直接改变它
 
 `errors: { [field: string]: string }`
-
+表单校验错误结果。必须符合initialValues定义的形状。
 
